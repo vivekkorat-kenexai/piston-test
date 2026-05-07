@@ -1,0 +1,66 @@
+{
+  "annotations": { "list": [] },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "id": null,
+  "links": [],
+  "panels": [
+    {
+      "type": "timeseries",
+      "title": "Execution Latency (p50/p95/p99)",
+      "targets": [
+        { "expr": "histogram_quantile(0.50, sum(rate(piston_execution_latency_seconds_bucket[1m])) by (le))", "refId": "A" },
+        { "expr": "histogram_quantile(0.95, sum(rate(piston_execution_latency_seconds_bucket[1m])) by (le))", "refId": "B" },
+        { "expr": "histogram_quantile(0.99, sum(rate(piston_execution_latency_seconds_bucket[1m])) by (le))", "refId": "C" }
+      ],
+      "gridPos": { "h": 8, "w": 24, "x": 0, "y": 0 }
+    },
+    {
+      "type": "timeseries",
+      "title": "Request Rate (req/s)",
+      "targets": [
+        { "expr": "sum(rate(piston_execution_total[1m]))", "refId": "A" }
+      ],
+      "gridPos": { "h": 7, "w": 12, "x": 0, "y": 8 }
+    },
+    {
+      "type": "timeseries",
+      "title": "Error Rate (%)",
+      "targets": [
+        {
+          "expr": "100 * (sum(rate(piston_execution_total{status=\"fail\"}[1m])) / sum(rate(piston_execution_total[1m])))",
+          "refId": "A"
+        }
+      ],
+      "gridPos": { "h": 7, "w": 12, "x": 12, "y": 8 }
+    },
+    {
+      "type": "gauge",
+      "title": "Active Executions",
+      "targets": [
+        { "expr": "piston_active_executions", "refId": "A" }
+      ],
+      "gridPos": { "h": 6, "w": 12, "x": 0, "y": 15 }
+    },
+    {
+      "type": "piechart",
+      "title": "Error Breakdown (by type)",
+      "targets": [
+        { "expr": "sum(rate(piston_error_total[5m])) by (error_type)", "refId": "A" }
+      ],
+      "gridPos": { "h": 6, "w": 12, "x": 12, "y": 15 }
+    }
+  ],
+  "schemaVersion": 38,
+  "style": "dark",
+  "tags": ["piston", "testing"],
+  "templating": { "list": [] },
+  "time": { "from": "now-15m", "to": "now" },
+  "timepicker": {},
+  "timezone": "browser",
+  "title": "Piston API Test Suite",
+  "uid": "piston-test-suite",
+  "version": 1
+}
+

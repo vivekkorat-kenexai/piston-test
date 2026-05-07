@@ -1,0 +1,7 @@
+languages:
+  - name: python
+    version: "3.10.0"
+    file_extension: .py
+  - name: javascript
+    version: "18.15.0"
+    file_extension: .js
