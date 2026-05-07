@@ -81,6 +81,7 @@ python security/test_privilege_escalation.py
 
 ```bash
 python load/test_exam_peak_simulation.py
+python load/test_student_cases_load.py
 python load/test_burst_traffic.py
 python load/test_sustained_load.py
 python load/test_multi_language_load.py
@@ -103,6 +104,24 @@ python stability/test_orphan_processes.py
 python stability/test_memory_leak.py
 python stability/test_disk_growth.py
 python stability/test_long_running.py
+```
+
+### Student-style algorithm testcases
+
+This suite includes a “genuine student-written” style bundle (Python + JavaScript) and runs it against multiple inputs:
+
+- reverse string
+- palindrome check
+- two sum
+- valid parentheses
+- group anagrams
+- merge intervals
+- coin change
+
+Run it:
+
+```bash
+python student_cases/test_student_algorithms.py
 ```
 
 ### Run the full suite

@@ -63,7 +63,10 @@ run_py security/test_docker_socket_access.py
 run_py security/test_subprocess_abuse.py
 run_py security/test_privilege_escalation.py
 
+run_py student_cases/test_student_algorithms.py
+
 run_py load/test_exam_peak_simulation.py
+run_py load/test_student_cases_load.py
 
 if [[ "${RUN_STABILITY}" == "true" ]]; then
   run_py stability/test_long_running.py
