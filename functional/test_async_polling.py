@@ -22,7 +22,8 @@ log = get_logger("functional.test_async_polling")
 
 def _extract_run_fields(resp_json: dict) -> tuple[int, str, str]:
     run = resp_json.get("run") or resp_json.get("result") or {}
-    exit_code = int(run.get("code", run.get("exit_code", 1)) or 1)
+    code_val = run["code"] if "code" in run else run.get("exit_code", 1)
+    exit_code = 1 if code_val is None else int(code_val)
     stdout = run.get("stdout", "") or ""
     stderr = run.get("stderr", "") or ""
     return exit_code, stdout, stderr
