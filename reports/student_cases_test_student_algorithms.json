@@ -1,0 +1,341 @@
+{
+  "generated_at": "2026-05-07T18:06:24Z",
+  "results": [
+    {
+      "timestamp": "2026-05-07T18:06:22Z",
+      "test_name": "student_cases.test_student_algorithms.python.case_0",
+      "language": "python",
+      "status": "pass",
+      "latency_ms": 70.06795902270824,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "expected_stdout": "olleh\n",
+        "stdout_preview": "olleh\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T18:06:22Z",
+      "test_name": "student_cases.test_student_algorithms.javascript.case_0",
+      "language": "javascript",
+      "status": "pass",
+      "latency_ms": 108.91111800447106,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "expected_stdout": "olleh\n",
+        "stdout_preview": "olleh\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T18:06:22Z",
+      "test_name": "student_cases.test_student_algorithms.python.case_1",
+      "language": "python",
+      "status": "pass",
+      "latency_ms": 77.21213600598276,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "expected_stdout": "racecar\n",
+        "stdout_preview": "racecar\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T18:06:22Z",
+      "test_name": "student_cases.test_student_algorithms.javascript.case_1",
+      "language": "javascript",
+      "status": "pass",
+      "latency_ms": 101.83551302179694,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "expected_stdout": "racecar\n",
+        "stdout_preview": "racecar\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T18:06:22Z",
+      "test_name": "student_cases.test_student_algorithms.python.case_2",
+      "language": "python",
+      "status": "pass",
+      "latency_ms": 88.10093102511019,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "expected_stdout": "true\n",
+        "stdout_preview": "true\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T18:06:22Z",
+      "test_name": "student_cases.test_student_algorithms.javascript.case_2",
+      "language": "javascript",
+      "status": "pass",
+      "latency_ms": 108.36693097371608,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "expected_stdout": "true\n",
+        "stdout_preview": "true\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T18:06:22Z",
+      "test_name": "student_cases.test_student_algorithms.python.case_3",
+      "language": "python",
+      "status": "pass",
+      "latency_ms": 75.05477301310748,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "expected_stdout": "false\n",
+        "stdout_preview": "false\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T18:06:22Z",
+      "test_name": "student_cases.test_student_algorithms.javascript.case_3",
+      "language": "javascript",
+      "status": "pass",
+      "latency_ms": 101.31210903637111,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "expected_stdout": "false\n",
+        "stdout_preview": "false\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T18:06:23Z",
+      "test_name": "student_cases.test_student_algorithms.python.case_4",
+      "language": "python",
+      "status": "pass",
+      "latency_ms": 71.72664499375969,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "expected_stdout": "0 1\n",
+        "stdout_preview": "0 1\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T18:06:23Z",
+      "test_name": "student_cases.test_student_algorithms.javascript.case_4",
+      "language": "javascript",
+      "status": "pass",
+      "latency_ms": 110.83294206764549,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "expected_stdout": "0 1\n",
+        "stdout_preview": "0 1\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T18:06:23Z",
+      "test_name": "student_cases.test_student_algorithms.python.case_5",
+      "language": "python",
+      "status": "pass",
+      "latency_ms": 79.45847499649972,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "expected_stdout": "1 2\n",
+        "stdout_preview": "1 2\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T18:06:23Z",
+      "test_name": "student_cases.test_student_algorithms.javascript.case_5",
+      "language": "javascript",
+      "status": "pass",
+      "latency_ms": 116.35808402206749,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "expected_stdout": "1 2\n",
+        "stdout_preview": "1 2\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T18:06:23Z",
+      "test_name": "student_cases.test_student_algorithms.python.case_6",
+      "language": "python",
+      "status": "pass",
+      "latency_ms": 75.32463606912643,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "expected_stdout": "true\n",
+        "stdout_preview": "true\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T18:06:23Z",
+      "test_name": "student_cases.test_student_algorithms.javascript.case_6",
+      "language": "javascript",
+      "status": "pass",
+      "latency_ms": 97.98649000003934,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "expected_stdout": "true\n",
+        "stdout_preview": "true\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T18:06:23Z",
+      "test_name": "student_cases.test_student_algorithms.python.case_7",
+      "language": "python",
+      "status": "pass",
+      "latency_ms": 80.29012999031693,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "expected_stdout": "false\n",
+        "stdout_preview": "false\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T18:06:23Z",
+      "test_name": "student_cases.test_student_algorithms.javascript.case_7",
+      "language": "javascript",
+      "status": "pass",
+      "latency_ms": 91.73021197784692,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "expected_stdout": "false\n",
+        "stdout_preview": "false\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T18:06:23Z",
+      "test_name": "student_cases.test_student_algorithms.python.case_8",
+      "language": "python",
+      "status": "pass",
+      "latency_ms": 75.7198448991403,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "expected_stdout": "bat|nat.tan|ate.eat.tea\n",
+        "stdout_preview": "bat|nat.tan|ate.eat.tea\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T18:06:23Z",
+      "test_name": "student_cases.test_student_algorithms.javascript.case_8",
+      "language": "javascript",
+      "status": "pass",
+      "latency_ms": 109.34460000135005,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "expected_stdout": "bat|nat.tan|ate.eat.tea\n",
+        "stdout_preview": "bat|nat.tan|ate.eat.tea\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T18:06:23Z",
+      "test_name": "student_cases.test_student_algorithms.python.case_9",
+      "language": "python",
+      "status": "pass",
+      "latency_ms": 81.0945340199396,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "expected_stdout": "1,6 8,10 15,18\n",
+        "stdout_preview": "1,6 8,10 15,18\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T18:06:24Z",
+      "test_name": "student_cases.test_student_algorithms.javascript.case_9",
+      "language": "javascript",
+      "status": "pass",
+      "latency_ms": 114.35286200139672,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "expected_stdout": "1,6 8,10 15,18\n",
+        "stdout_preview": "1,6 8,10 15,18\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T18:06:24Z",
+      "test_name": "student_cases.test_student_algorithms.python.case_10",
+      "language": "python",
+      "status": "pass",
+      "latency_ms": 70.27493801433593,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "expected_stdout": "3\n",
+        "stdout_preview": "3\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T18:06:24Z",
+      "test_name": "student_cases.test_student_algorithms.javascript.case_10",
+      "language": "javascript",
+      "status": "pass",
+      "latency_ms": 102.93606901541352,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "expected_stdout": "3\n",
+        "stdout_preview": "3\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T18:06:24Z",
+      "test_name": "student_cases.test_student_algorithms.python.case_11",
+      "language": "python",
+      "status": "pass",
+      "latency_ms": 64.26610797643661,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "expected_stdout": "-1\n",
+        "stdout_preview": "-1\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T18:06:24Z",
+      "test_name": "student_cases.test_student_algorithms.javascript.case_11",
+      "language": "javascript",
+      "status": "pass",
+      "latency_ms": 102.34872694127262,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "expected_stdout": "-1\n",
+        "stdout_preview": "-1\n",
+        "stderr_preview": ""
+      }
+    }
+  ]
+}

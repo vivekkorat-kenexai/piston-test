@@ -54,3 +54,30 @@
 [2026-05-07 23:21:39] [INFO] [security.test_privilege_escalation] SECURITY PASS security.test_privilege_escalation.python
 [2026-05-07 23:26:40] [INFO] [load.test_exam_peak_simulation] Wrote results: reports/load_test_exam_peak_simulation.json
 [2026-05-07 23:26:40] [INFO] [load.test_exam_peak_simulation] Peak summary: total=8000 success_rate=84.51% p95=24553.4ms p99=27999.4ms peak_rps=26.6
+[2026-05-07 23:36:22] [INFO] [student_cases.test_student_algorithms] PASS student_cases.test_student_algorithms.python.case_0
+[2026-05-07 23:36:22] [INFO] [student_cases.test_student_algorithms] PASS student_cases.test_student_algorithms.javascript.case_0
+[2026-05-07 23:36:22] [INFO] [student_cases.test_student_algorithms] PASS student_cases.test_student_algorithms.python.case_1
+[2026-05-07 23:36:22] [INFO] [student_cases.test_student_algorithms] PASS student_cases.test_student_algorithms.javascript.case_1
+[2026-05-07 23:36:22] [INFO] [student_cases.test_student_algorithms] PASS student_cases.test_student_algorithms.python.case_2
+[2026-05-07 23:36:22] [INFO] [student_cases.test_student_algorithms] PASS student_cases.test_student_algorithms.javascript.case_2
+[2026-05-07 23:36:22] [INFO] [student_cases.test_student_algorithms] PASS student_cases.test_student_algorithms.python.case_3
+[2026-05-07 23:36:22] [INFO] [student_cases.test_student_algorithms] PASS student_cases.test_student_algorithms.javascript.case_3
+[2026-05-07 23:36:23] [INFO] [student_cases.test_student_algorithms] PASS student_cases.test_student_algorithms.python.case_4
+[2026-05-07 23:36:23] [INFO] [student_cases.test_student_algorithms] PASS student_cases.test_student_algorithms.javascript.case_4
+[2026-05-07 23:36:23] [INFO] [student_cases.test_student_algorithms] PASS student_cases.test_student_algorithms.python.case_5
+[2026-05-07 23:36:23] [INFO] [student_cases.test_student_algorithms] PASS student_cases.test_student_algorithms.javascript.case_5
+[2026-05-07 23:36:23] [INFO] [student_cases.test_student_algorithms] PASS student_cases.test_student_algorithms.python.case_6
+[2026-05-07 23:36:23] [INFO] [student_cases.test_student_algorithms] PASS student_cases.test_student_algorithms.javascript.case_6
+[2026-05-07 23:36:23] [INFO] [student_cases.test_student_algorithms] PASS student_cases.test_student_algorithms.python.case_7
+[2026-05-07 23:36:23] [INFO] [student_cases.test_student_algorithms] PASS student_cases.test_student_algorithms.javascript.case_7
+[2026-05-07 23:36:23] [INFO] [student_cases.test_student_algorithms] PASS student_cases.test_student_algorithms.python.case_8
+[2026-05-07 23:36:23] [INFO] [student_cases.test_student_algorithms] PASS student_cases.test_student_algorithms.javascript.case_8
+[2026-05-07 23:36:23] [INFO] [student_cases.test_student_algorithms] PASS student_cases.test_student_algorithms.python.case_9
+[2026-05-07 23:36:24] [INFO] [student_cases.test_student_algorithms] PASS student_cases.test_student_algorithms.javascript.case_9
+[2026-05-07 23:36:24] [INFO] [student_cases.test_student_algorithms] PASS student_cases.test_student_algorithms.python.case_10
+[2026-05-07 23:36:24] [INFO] [student_cases.test_student_algorithms] PASS student_cases.test_student_algorithms.javascript.case_10
+[2026-05-07 23:36:24] [INFO] [student_cases.test_student_algorithms] PASS student_cases.test_student_algorithms.python.case_11
+[2026-05-07 23:36:24] [INFO] [student_cases.test_student_algorithms] PASS student_cases.test_student_algorithms.javascript.case_11
+[2026-05-07 23:36:24] [INFO] [student_cases.test_student_algorithms] Wrote results: reports/student_cases_test_student_algorithms.json
+[2026-05-07 23:41:57] [INFO] [load.test_student_cases_load] Wrote results: reports/load_test_student_cases_load.json
+[2026-05-07 23:41:57] [INFO] [load.test_student_cases_load] Summary: {'total_requests_sent': 10000, 'success_rate_percent': 95.88, 'error_breakdown': {'ServerDisconnectedError': 74, 'ClientOSError': 3, 'client_timeout': 335}, 'concurrent_users': 1000, 'duration_seconds': 300, 'p50_latency_ms': 17160.94142908696, 'p95_latency_ms': 29339.85395100899, 'p99_latency_ms': 30248.705004923977}
