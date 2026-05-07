@@ -1,0 +1,660 @@
+{
+  "generated_at": "2026-05-07T17:20:25Z",
+  "results": [
+    {
+      "timestamp": "2026-05-07T17:20:11Z",
+      "test_name": "functional.test_batch_execution.python.req_0",
+      "language": "python",
+      "status": "fail",
+      "latency_ms": 56.33753095753491,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_PYTHON\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:11Z",
+      "test_name": "functional.test_batch_execution.javascript.req_1",
+      "language": "javascript",
+      "status": "fail",
+      "latency_ms": 90.48051899299026,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_JAVASCRIPT\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:12Z",
+      "test_name": "functional.test_batch_execution.python.req_2",
+      "language": "python",
+      "status": "fail",
+      "latency_ms": 50.61739694792777,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_PYTHON\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:12Z",
+      "test_name": "functional.test_batch_execution.javascript.req_3",
+      "language": "javascript",
+      "status": "fail",
+      "latency_ms": 87.73327805101871,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_JAVASCRIPT\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:12Z",
+      "test_name": "functional.test_batch_execution.python.req_4",
+      "language": "python",
+      "status": "fail",
+      "latency_ms": 64.42161393351853,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_PYTHON\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:12Z",
+      "test_name": "functional.test_batch_execution.javascript.req_5",
+      "language": "javascript",
+      "status": "fail",
+      "latency_ms": 83.8786200620234,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_JAVASCRIPT\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:13Z",
+      "test_name": "functional.test_batch_execution.python.req_6",
+      "language": "python",
+      "status": "fail",
+      "latency_ms": 54.03511808253825,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_PYTHON\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:13Z",
+      "test_name": "functional.test_batch_execution.javascript.req_7",
+      "language": "javascript",
+      "status": "fail",
+      "latency_ms": 80.58299601543695,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_JAVASCRIPT\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:13Z",
+      "test_name": "functional.test_batch_execution.python.req_8",
+      "language": "python",
+      "status": "fail",
+      "latency_ms": 58.06174105964601,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_PYTHON\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:14Z",
+      "test_name": "functional.test_batch_execution.javascript.req_9",
+      "language": "javascript",
+      "status": "fail",
+      "latency_ms": 84.33749305550009,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_JAVASCRIPT\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:14Z",
+      "test_name": "functional.test_batch_execution.python.req_10",
+      "language": "python",
+      "status": "fail",
+      "latency_ms": 49.824330024421215,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_PYTHON\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:14Z",
+      "test_name": "functional.test_batch_execution.javascript.req_11",
+      "language": "javascript",
+      "status": "fail",
+      "latency_ms": 81.07525401283056,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_JAVASCRIPT\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:14Z",
+      "test_name": "functional.test_batch_execution.python.req_12",
+      "language": "python",
+      "status": "fail",
+      "latency_ms": 53.10986808035523,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_PYTHON\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:15Z",
+      "test_name": "functional.test_batch_execution.javascript.req_13",
+      "language": "javascript",
+      "status": "fail",
+      "latency_ms": 83.52840191219002,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_JAVASCRIPT\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:15Z",
+      "test_name": "functional.test_batch_execution.python.req_14",
+      "language": "python",
+      "status": "fail",
+      "latency_ms": 54.10254106391221,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_PYTHON\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:15Z",
+      "test_name": "functional.test_batch_execution.javascript.req_15",
+      "language": "javascript",
+      "status": "fail",
+      "latency_ms": 84.1325270012021,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_JAVASCRIPT\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:15Z",
+      "test_name": "functional.test_batch_execution.python.req_16",
+      "language": "python",
+      "status": "fail",
+      "latency_ms": 48.97413891740143,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_PYTHON\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:16Z",
+      "test_name": "functional.test_batch_execution.javascript.req_17",
+      "language": "javascript",
+      "status": "fail",
+      "latency_ms": 89.13417195435613,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_JAVASCRIPT\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:16Z",
+      "test_name": "functional.test_batch_execution.python.req_18",
+      "language": "python",
+      "status": "fail",
+      "latency_ms": 58.187227114103734,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_PYTHON\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:16Z",
+      "test_name": "functional.test_batch_execution.javascript.req_19",
+      "language": "javascript",
+      "status": "fail",
+      "latency_ms": 79.48454399593174,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_JAVASCRIPT\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:17Z",
+      "test_name": "functional.test_batch_execution.python.req_20",
+      "language": "python",
+      "status": "fail",
+      "latency_ms": 60.97518396563828,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_PYTHON\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:17Z",
+      "test_name": "functional.test_batch_execution.javascript.req_21",
+      "language": "javascript",
+      "status": "fail",
+      "latency_ms": 104.68323703389615,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_JAVASCRIPT\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:17Z",
+      "test_name": "functional.test_batch_execution.python.req_22",
+      "language": "python",
+      "status": "fail",
+      "latency_ms": 57.03045905102044,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_PYTHON\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:17Z",
+      "test_name": "functional.test_batch_execution.javascript.req_23",
+      "language": "javascript",
+      "status": "fail",
+      "latency_ms": 84.24275298602879,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_JAVASCRIPT\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:18Z",
+      "test_name": "functional.test_batch_execution.python.req_24",
+      "language": "python",
+      "status": "fail",
+      "latency_ms": 52.59299499448389,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_PYTHON\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:18Z",
+      "test_name": "functional.test_batch_execution.javascript.req_25",
+      "language": "javascript",
+      "status": "fail",
+      "latency_ms": 88.28896190971136,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_JAVASCRIPT\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:18Z",
+      "test_name": "functional.test_batch_execution.python.req_26",
+      "language": "python",
+      "status": "fail",
+      "latency_ms": 49.26386894658208,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_PYTHON\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:19Z",
+      "test_name": "functional.test_batch_execution.javascript.req_27",
+      "language": "javascript",
+      "status": "fail",
+      "latency_ms": 80.67030797246844,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_JAVASCRIPT\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:19Z",
+      "test_name": "functional.test_batch_execution.python.req_28",
+      "language": "python",
+      "status": "fail",
+      "latency_ms": 56.625911965966225,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_PYTHON\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:19Z",
+      "test_name": "functional.test_batch_execution.javascript.req_29",
+      "language": "javascript",
+      "status": "fail",
+      "latency_ms": 85.23816091474146,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_JAVASCRIPT\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:19Z",
+      "test_name": "functional.test_batch_execution.python.req_30",
+      "language": "python",
+      "status": "fail",
+      "latency_ms": 51.30370601546019,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_PYTHON\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:20Z",
+      "test_name": "functional.test_batch_execution.javascript.req_31",
+      "language": "javascript",
+      "status": "fail",
+      "latency_ms": 94.2260540323332,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_JAVASCRIPT\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:20Z",
+      "test_name": "functional.test_batch_execution.python.req_32",
+      "language": "python",
+      "status": "fail",
+      "latency_ms": 53.29501605592668,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_PYTHON\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:20Z",
+      "test_name": "functional.test_batch_execution.javascript.req_33",
+      "language": "javascript",
+      "status": "fail",
+      "latency_ms": 85.86692297831178,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_JAVASCRIPT\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:20Z",
+      "test_name": "functional.test_batch_execution.python.req_34",
+      "language": "python",
+      "status": "fail",
+      "latency_ms": 53.03117795847356,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_PYTHON\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:21Z",
+      "test_name": "functional.test_batch_execution.javascript.req_35",
+      "language": "javascript",
+      "status": "fail",
+      "latency_ms": 81.27694402355701,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_JAVASCRIPT\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:21Z",
+      "test_name": "functional.test_batch_execution.python.req_36",
+      "language": "python",
+      "status": "fail",
+      "latency_ms": 50.918903085403144,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_PYTHON\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:21Z",
+      "test_name": "functional.test_batch_execution.javascript.req_37",
+      "language": "javascript",
+      "status": "fail",
+      "latency_ms": 83.78403005190194,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_JAVASCRIPT\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:22Z",
+      "test_name": "functional.test_batch_execution.python.req_38",
+      "language": "python",
+      "status": "fail",
+      "latency_ms": 53.537462023086846,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_PYTHON\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:22Z",
+      "test_name": "functional.test_batch_execution.javascript.req_39",
+      "language": "javascript",
+      "status": "fail",
+      "latency_ms": 89.30144901387393,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_JAVASCRIPT\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:22Z",
+      "test_name": "functional.test_batch_execution.python.req_40",
+      "language": "python",
+      "status": "fail",
+      "latency_ms": 55.588074028491974,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_PYTHON\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:23Z",
+      "test_name": "functional.test_batch_execution.javascript.req_41",
+      "language": "javascript",
+      "status": "fail",
+      "latency_ms": 79.03683406766504,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_JAVASCRIPT\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:23Z",
+      "test_name": "functional.test_batch_execution.python.req_42",
+      "language": "python",
+      "status": "fail",
+      "latency_ms": 52.93428699951619,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_PYTHON\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:23Z",
+      "test_name": "functional.test_batch_execution.javascript.req_43",
+      "language": "javascript",
+      "status": "fail",
+      "latency_ms": 87.54561108071357,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_JAVASCRIPT\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:23Z",
+      "test_name": "functional.test_batch_execution.python.req_44",
+      "language": "python",
+      "status": "fail",
+      "latency_ms": 49.93397195357829,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_PYTHON\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:24Z",
+      "test_name": "functional.test_batch_execution.javascript.req_45",
+      "language": "javascript",
+      "status": "fail",
+      "latency_ms": 79.82353703118861,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_JAVASCRIPT\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:24Z",
+      "test_name": "functional.test_batch_execution.python.req_46",
+      "language": "python",
+      "status": "fail",
+      "latency_ms": 53.897108999080956,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_PYTHON\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:24Z",
+      "test_name": "functional.test_batch_execution.javascript.req_47",
+      "language": "javascript",
+      "status": "fail",
+      "latency_ms": 84.66441091150045,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_JAVASCRIPT\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:25Z",
+      "test_name": "functional.test_batch_execution.python.req_48",
+      "language": "python",
+      "status": "fail",
+      "latency_ms": 57.789740967564285,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_PYTHON\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:25Z",
+      "test_name": "functional.test_batch_execution.javascript.req_49",
+      "language": "javascript",
+      "status": "fail",
+      "latency_ms": 82.43589103221893,
+      "error_type": "nonzero_exit_or_stderr",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HELLO_FROM_JAVASCRIPT\n",
+        "stderr_preview": ""
+      }
+    }
+  ],
+  "summary": {
+    "total_requests": 50,
+    "total_time_ms": 14269.076153053902,
+    "avg_latency_ms": 69.83684566570446
+  }
+}

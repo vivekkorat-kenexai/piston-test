@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-07T17:20:48Z",
+  "results": [
+    {
+      "timestamp": "2026-05-07T17:20:48Z",
+      "test_name": "security.test_env_variable_leak.python",
+      "language": "python",
+      "status": "pass",
+      "latency_ms": 0.0,
+      "error_type": "",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "HOME\nLC_CTYPE\nLIBC_FATAL_STDERR_\nPATH\nPISTON_LANGUAGE\nPWD\nSHLVL\n_\n",
+        "stderr_preview": "",
+        "leaked_markers": []
+      }
+    }
+  ]
+}

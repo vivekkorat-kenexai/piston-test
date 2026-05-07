@@ -1,0 +1,16 @@
+{
+  "total_requests": 7000,
+  "success_count": 0,
+  "failure_count": 7000,
+  "success_rate_percent": 0.0,
+  "p50_latency_ms": 0.0,
+  "p95_latency_ms": 0.0,
+  "p99_latency_ms": 0.0,
+  "throughput_rps": 0.0,
+  "error_breakdown": {
+    "sandbox_error": 6384,
+    "ClientConnectorError": 607,
+    "client_timeout": 9
+  },
+  "analyzed_at": "2026-05-07T17:26:17Z"
+}

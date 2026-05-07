@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-07T17:20:47Z",
+  "results": [
+    {
+      "timestamp": "2026-05-07T17:20:47Z",
+      "test_name": "security.test_filesystem_escape.python",
+      "language": "python",
+      "status": "fail",
+      "latency_ms": 0.0,
+      "error_type": "filesystem_escape_possible",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "/etc/passwd:root:x:0:0:root:/root:/bin/bash\\ndaemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin\\nbin:x:2:2:bin:/bin:/usr/sbin/nologin\\nsys:x:3:3:sys:/dev:/usr/sbin/nologin\\nsync:x:4:65534:sync:/bin:/bin/sync\\ngames:x:5:6\n/etc/shadow:ERROR:[Errno 13] Permission denied: '/etc/shadow'\n/proc/self/environ:PWD=/box/submission\u0000HOME=/tmp\u0000SHLVL=1\u0000PISTON_LANGUAGE=python\u0000PATH=/piston/packages/python/3.10.0/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:.\u0000LIBC_FATAL_STDERR_=1\u0000_=/piston/packa\n",
+        "stderr_preview": "",
+        "leaked_detected": true
+      }
+    }
+  ]
+}

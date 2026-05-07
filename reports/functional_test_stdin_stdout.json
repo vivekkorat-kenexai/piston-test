@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-05-07T17:20:05Z",
+  "results": [
+    {
+      "timestamp": "2026-05-07T17:20:04Z",
+      "test_name": "functional.test_stdin_stdout.python.stdin_echo",
+      "language": "python",
+      "status": "fail",
+      "latency_ms": 64.91784693207592,
+      "error_type": "",
+      "details": {
+        "exit_code": 1,
+        "expected_stdout_preview": "line1\nline2\nline3\n",
+        "stdout_preview": "line1\nline2\nline3\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:04Z",
+      "test_name": "functional.test_stdin_stdout.python.sort_array",
+      "language": "python",
+      "status": "fail",
+      "latency_ms": 53.60873194877058,
+      "error_type": "",
+      "details": {
+        "exit_code": 1,
+        "expected_stdout_preview": "1 2 3 5 7 9\n",
+        "stdout_preview": "1 2 3 5 7 9\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:04Z",
+      "test_name": "functional.test_stdin_stdout.javascript.stdin_echo",
+      "language": "javascript",
+      "status": "fail",
+      "latency_ms": 88.15236098598689,
+      "error_type": "",
+      "details": {
+        "exit_code": 1,
+        "expected_stdout_preview": "line1\nline2\nline3\n",
+        "stdout_preview": "line1\nline2\nline3\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:05Z",
+      "test_name": "functional.test_stdin_stdout.javascript.sort_array",
+      "language": "javascript",
+      "status": "fail",
+      "latency_ms": 96.83848498389125,
+      "error_type": "",
+      "details": {
+        "exit_code": 1,
+        "expected_stdout_preview": "1 2 3 5 7 9\n",
+        "stdout_preview": "1 2 3 5 7 9\n",
+        "stderr_preview": ""
+      }
+    }
+  ]
+}

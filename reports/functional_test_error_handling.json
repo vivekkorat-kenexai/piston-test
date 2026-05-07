@@ -1,0 +1,83 @@
+{
+  "generated_at": "2026-05-07T17:20:05Z",
+  "results": [
+    {
+      "timestamp": "2026-05-07T17:20:05Z",
+      "test_name": "functional.test_error_handling.python.syntax_error",
+      "language": "python",
+      "status": "pass",
+      "latency_ms": 60.16682495828718,
+      "error_type": "",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "",
+        "stderr_preview": "  File \"/box/submission/main\", line 1\n    def oops(:\n             ^\nSyntaxError: invalid syntax\n"
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:05Z",
+      "test_name": "functional.test_error_handling.python.runtime_error",
+      "language": "python",
+      "status": "pass",
+      "latency_ms": 73.47460289020091,
+      "error_type": "",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "",
+        "stderr_preview": "Traceback (most recent call last):\n  File \"/box/submission/main\", line 1, in <module>\n    print(1/0)\nZeroDivisionError: division by zero\n"
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:05Z",
+      "test_name": "functional.test_error_handling.python.name_error",
+      "language": "python",
+      "status": "pass",
+      "latency_ms": 63.03777196444571,
+      "error_type": "",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "",
+        "stderr_preview": "Traceback (most recent call last):\n  File \"/box/submission/main\", line 1, in <module>\n    print(not_defined_variable)\nNameError: name 'not_defined_variable' is not defined\n"
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:05Z",
+      "test_name": "functional.test_error_handling.javascript.syntax_error",
+      "language": "javascript",
+      "status": "pass",
+      "latency_ms": 121.36474600993097,
+      "error_type": "",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "",
+        "stderr_preview": "/box/submission/main:1\nfunction oops( { console.log('x'); }\n                        ^\n\nSyntaxError: Unexpected token '.'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1176:20)\n    at Module._compile (node:internal/modules/cjs/loader:1218:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47\n\nNode.js v18.15.0\n"
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:05Z",
+      "test_name": "functional.test_error_handling.javascript.runtime_error",
+      "language": "javascript",
+      "status": "pass",
+      "latency_ms": 114.52035198453814,
+      "error_type": "",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "Infinity\n",
+        "stderr_preview": "/box/submission/main:1\nconsole.log(1/0); throw new Error('boom');\n                  ^\n\nError: boom\n    at Object.<anonymous> (/box/submission/main:1:25)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47\n\nNode.js v18.15.0\n"
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:20:05Z",
+      "test_name": "functional.test_error_handling.javascript.name_error",
+      "language": "javascript",
+      "status": "pass",
+      "latency_ms": 107.44245396926999,
+      "error_type": "",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "",
+        "stderr_preview": "/box/submission/main:1\nconsole.log(notDefinedVariable);\n            ^\n\nReferenceError: notDefinedVariable is not defined\n    at Object.<anonymous> (/box/submission/main:1:13)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47\n\nNode.js v18.15.0\n"
+      }
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+[
+    {
+        "Id": "402ef6712d3b009088d40fca348a3fc567fba676f9a65db3c54617fb7fb40695",
+        "Created": "2026-05-07T13:16:41.686038811Z",
+        "Path": "docker-entrypoint.sh",
+        "Args": [
+            "/piston_api/src/docker-entrypoint.sh"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 275370,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2026-05-07T13:16:44.862309404Z",
+            "FinishedAt": "0001-01-01T00:00:00Z"
+        },
+        "Image": "sha256:acfbe5930e559209195528a558c8c0ab45f4ff5ab2311ff7bc4f829a443f03a8",
+        "ResolvConfPath": "/var/lib/docker/containers/402ef6712d3b009088d40fca348a3fc567fba676f9a65db3c54617fb7fb40695/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/402ef6712d3b009088d40fca348a3fc567fba676f9a65db3c54617fb7fb40695/hostname",
+        "HostsPath": "/var/lib/docker/containers/402ef6712d3b009088d40fca348a3fc567fba676f9a65db3c54617fb7fb40695/hosts",
+        "LogPath": "/var/lib/docker/containers/402ef6712d3b009088d40fca348a3fc567fba676f9a65db3c54617fb7fb40695/402ef6712d3b009088d40fca348a3fc567fba676f9a65db3c54617fb7fb40695-json.log",
+        "Name": "/piston_api",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "unconfined",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "/home/genai-server/piston/data/piston/packages:/piston/packages:rw"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "piston_default",
+            "PortBindings": {
+                "2000/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "2000"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "always",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": true,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": [
+                "label=disable"
+            ],
+            "Tmpfs": {
+                "/tmp": "exec"
+            },
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": null,
+            "ReadonlyPaths": null
+        },
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/0930745b009a05c6feba5e70b061b539f4d8d3bf7b4e7be74f65d81a4251bce4-init/diff:/var/lib/docker/overlay2/91c220b684fc07fde52c8a0f6a4c4a87b7354e14c5f37903eef31285caea8233/diff:/var/lib/docker/overlay2/3f723be69397ec0b1160d01c6cbeaf9398876fe1848f30cdbbb96ecd5ec2eaf2/diff:/var/lib/docker/overlay2/a5f0a07b2ed1b499ab8233f66540b86b0700fd45c3976d84e44fc6d58648b4ea/diff:/var/lib/docker/overlay2/02760e0f565d55e46ff7cf3059589ef5332bedcfc7c4a4d79973d2974eda88a3/diff:/var/lib/docker/overlay2/3d294cd689d4a1c00ffb0b4b4dfdc4c0a79ca912e0544c6e6bee59f51902bc81/diff:/var/lib/docker/overlay2/2630846ad8f9fd5620f13c02a49a15dbc3450cb5653f06c8fbe972ee64b62217/diff:/var/lib/docker/overlay2/76737c56ebb05889703d8cafa7cdc0935ba41637ca21508e1e86ff8db75adfe2/diff:/var/lib/docker/overlay2/6cff3d6cd28546c6f55cde789320347ef3bb902527556e92835a5b2fcedb958d/diff:/var/lib/docker/overlay2/6c10a5ab112b3681af26b3913ac6d4cac2d6efd854e314b40d028b489513e0eb/diff:/var/lib/docker/overlay2/427f57292eb759f3cc61f13f673fded6fe0d62076a0d6350816bc794a92b4766/diff:/var/lib/docker/overlay2/c6fc716dc507224e7efa788e6b93b921de4778387b5f13898a843f935f9e9731/diff:/var/lib/docker/overlay2/d16336cc570ea18a28ccbada0c362e0d388e30cfd604c74fe48f1e9346704188/diff:/var/lib/docker/overlay2/4ab1deca146e018ee04d51b71995bbdf53497c947ad26a6a2c4252ecd3aa70d7/diff:/var/lib/docker/overlay2/764c9319dbdb52ca20246f58304818ea831d6e0887b60a6d991d385c1a1fadcb/diff:/var/lib/docker/overlay2/ec804da695c74a963e0e990e6ac878ca319567469f2d68950596df91c9739a0c/diff",
+                "MergedDir": "/var/lib/docker/overlay2/0930745b009a05c6feba5e70b061b539f4d8d3bf7b4e7be74f65d81a4251bce4/merged",
+                "UpperDir": "/var/lib/docker/overlay2/0930745b009a05c6feba5e70b061b539f4d8d3bf7b4e7be74f65d81a4251bce4/diff",
+                "WorkDir": "/var/lib/docker/overlay2/0930745b009a05c6feba5e70b061b539f4d8d3bf7b4e7be74f65d81a4251bce4/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/home/genai-server/piston/data/piston/packages",
+                "Destination": "/piston/packages",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            }
+        ],
+        "Config": {
+            "Hostname": "402ef6712d3b",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "2000/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "NODE_VERSION=15.10.0",
+                "YARN_VERSION=1.22.5",
+                "DEBIAN_FRONTEND=noninteractive"
+            ],
+            "Cmd": [
+                "/piston_api/src/docker-entrypoint.sh"
+            ],
+            "Image": "ghcr.io/engineer-man/piston",
+            "Volumes": null,
+            "WorkingDir": "/piston_api",
+            "Entrypoint": [
+                "docker-entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "com.docker.compose.config-hash": "2c55e3253ee63f49af596027a812bd439955db1bdb85aabcb78306204e7a719e",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "",
+                "com.docker.compose.image": "sha256:acfbe5930e559209195528a558c8c0ab45f4ff5ab2311ff7bc4f829a443f03a8",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "piston",
+                "com.docker.compose.project.config_files": "/home/genai-server/piston/docker-compose.yaml",
+                "com.docker.compose.project.working_dir": "/home/genai-server/piston",
+                "com.docker.compose.service": "api",
+                "com.docker.compose.version": "2.32.1"
+            }
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "a5a00b69ea2b3e83a83c54981e685ad7f4bfc3326c47cbf487a9b18530f402a8",
+            "SandboxKey": "/var/run/docker/netns/a5a00b69ea2b",
+            "Ports": {
+                "2000/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "2000"
+                    },
+                    {
+                        "HostIp": "::",
+                        "HostPort": "2000"
+                    }
+                ]
+            },
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "piston_default": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "piston_api",
+                        "api"
+                    ],
+                    "MacAddress": "02:42:ac:13:00:02",
+                    "DriverOpts": null,
+                    "NetworkID": "8827c9974982529c0e568c3e7df007bf053ba8c108529561b841d3c8da5009b3",
+                    "EndpointID": "4ffb137d8ddfa8b64f776e0e6be99c8a01a74412c4a7ad0dca310f0c207431aa",
+                    "Gateway": "172.19.0.1",
+                    "IPAddress": "172.19.0.2",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "piston_api",
+                        "api",
+                        "402ef6712d3b"
+                    ]
+                }
+            }
+        }
+    }
+]

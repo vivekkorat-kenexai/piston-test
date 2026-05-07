@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-05-07T17:20:49Z",
+  "results": [
+    {
+      "timestamp": "2026-05-07T17:20:49Z",
+      "test_name": "security.test_docker_socket_access.python",
+      "language": "python",
+      "status": "pass",
+      "latency_ms": 0.0,
+      "error_type": "",
+      "details": {
+        "exit_code": 1,
+        "stdout_preview": "DOCKER_SOCKET_BLOCKED:[Errno 2] No such file or directory\n",
+        "stderr_preview": ""
+      }
+    }
+  ]
+}

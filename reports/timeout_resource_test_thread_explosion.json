@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-05-07T17:20:47Z",
+  "results": [
+    {
+      "timestamp": "2026-05-07T17:20:47Z",
+      "test_name": "timeout_resource.test_thread_explosion.python",
+      "language": "python",
+      "status": "pass",
+      "latency_ms": 2830.906067043543,
+      "error_type": "",
+      "details": {
+        "elapsed_s": 2.8310451309662312,
+        "http_latency_ms": 2830.906067043543,
+        "exit_code": 1,
+        "stdout_preview": "",
+        "stderr_preview": ""
+      }
+    }
+  ]
+}
