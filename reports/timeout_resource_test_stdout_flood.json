@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-05-07T17:51:29Z",
+  "results": [
+    {
+      "timestamp": "2026-05-07T17:51:29Z",
+      "test_name": "timeout_resource.test_stdout_flood.python",
+      "language": "python",
+      "status": "pass",
+      "latency_ms": 51.703290082514286,
+      "error_type": "",
+      "details": {
+        "elapsed_s": 0.05184761993587017,
+        "http_latency_ms": 51.703290082514286,
+        "exit_code": 1,
+        "stdout_len": 0,
+        "stderr_preview": "Sandbox keeper received fatal signal 6\n"
+      }
+    }
+  ]
+}

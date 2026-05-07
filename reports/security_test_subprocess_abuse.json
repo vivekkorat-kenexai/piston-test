@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-05-07T17:51:39Z",
+  "results": [
+    {
+      "timestamp": "2026-05-07T17:51:39Z",
+      "test_name": "security.test_subprocess_abuse.python",
+      "language": "python",
+      "status": "fail",
+      "latency_ms": 0.0,
+      "error_type": "subprocess_allowed",
+      "details": {
+        "exit_code": 0,
+        "stdout_preview": "SUBPROCESS_OK:uid=60111 gid=60111 groups=60111\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:51:39Z",
+      "test_name": "security.test_subprocess_abuse.javascript",
+      "language": "javascript",
+      "status": "fail",
+      "latency_ms": 0.0,
+      "error_type": "subprocess_allowed",
+      "details": {
+        "exit_code": 0,
+        "stdout_preview": "SUBPROCESS_OK:uid=60112 gid=60112 groups=60112\n",
+        "stderr_preview": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-05-07T17:51:18Z",
+  "results": [
+    {
+      "timestamp": "2026-05-07T17:51:18Z",
+      "test_name": "timeout_resource.test_infinite_loop.python",
+      "language": "python",
+      "status": "pass",
+      "latency_ms": 3128.5519909579307,
+      "error_type": "",
+      "details": {
+        "elapsed_s": 3.1286794529296458,
+        "http_latency_ms": 3128.5519909579307,
+        "exit_code": 1,
+        "stdout_preview": "",
+        "stderr_preview": ""
+      }
+    }
+  ]
+}

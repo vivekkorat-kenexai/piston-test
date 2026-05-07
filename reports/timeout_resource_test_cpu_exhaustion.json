@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-05-07T17:51:22Z",
+  "results": [
+    {
+      "timestamp": "2026-05-07T17:51:22Z",
+      "test_name": "timeout_resource.test_cpu_exhaustion.python",
+      "language": "python",
+      "status": "pass",
+      "latency_ms": 3133.875762927346,
+      "error_type": "",
+      "details": {
+        "elapsed_s": 3.134012387949042,
+        "http_latency_ms": 3133.875762927346,
+        "exit_code": 1,
+        "stdout_preview": "",
+        "stderr_preview": ""
+      }
+    }
+  ]
+}

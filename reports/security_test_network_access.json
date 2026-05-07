@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-05-07T17:51:38Z",
+  "results": [
+    {
+      "timestamp": "2026-05-07T17:51:38Z",
+      "test_name": "security.test_network_access.python",
+      "language": "python",
+      "status": "pass",
+      "latency_ms": 0.0,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "stdout_preview": "NETWORK_BLOCKED:<urlopen error [Errno 101] Network is unreachable>\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:51:38Z",
+      "test_name": "security.test_network_access.javascript",
+      "language": "javascript",
+      "status": "pass",
+      "latency_ms": 0.0,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "stdout_preview": "NETWORK_BLOCKED:TypeError: fetch failed\n",
+        "stderr_preview": ""
+      }
+    }
+  ]
+}

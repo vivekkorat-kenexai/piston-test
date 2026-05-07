@@ -1,0 +1,16 @@
+{
+  "total_requests": 8000,
+  "success_count": 6761,
+  "failure_count": 1239,
+  "success_rate_percent": 84.5125,
+  "p50_latency_ms": 13817.524294019677,
+  "p95_latency_ms": 24553.418700001203,
+  "p99_latency_ms": 27992.583406041376,
+  "throughput_rps": 0.0,
+  "error_breakdown": {
+    "client_timeout": 91,
+    "ClientOSError": 836,
+    "ClientConnectorError": 312
+  },
+  "analyzed_at": "2026-05-07T17:56:40Z"
+}

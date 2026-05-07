@@ -1,0 +1,265 @@
+{
+  "generated_at": "2026-05-07T17:51:00Z",
+  "results": [
+    {
+      "timestamp": "2026-05-07T17:51:00Z",
+      "test_name": "functional.test_async_polling.req_0",
+      "language": "python",
+      "status": "pass",
+      "latency_ms": 616.0272610140964,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "stdout_preview": "HELLO_FROM_PYTHON\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:51:00Z",
+      "test_name": "functional.test_async_polling.req_1",
+      "language": "javascript",
+      "status": "pass",
+      "latency_ms": 432.4141280958429,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "stdout_preview": "HELLO_FROM_JAVASCRIPT\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:51:00Z",
+      "test_name": "functional.test_async_polling.req_2",
+      "language": "python",
+      "status": "pass",
+      "latency_ms": 523.88869097922,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "stdout_preview": "HELLO_FROM_PYTHON\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:51:00Z",
+      "test_name": "functional.test_async_polling.req_3",
+      "language": "javascript",
+      "status": "pass",
+      "latency_ms": 461.6380560910329,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "stdout_preview": "HELLO_FROM_JAVASCRIPT\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:51:00Z",
+      "test_name": "functional.test_async_polling.req_4",
+      "language": "python",
+      "status": "pass",
+      "latency_ms": 552.5543650146574,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "stdout_preview": "HELLO_FROM_PYTHON\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:51:00Z",
+      "test_name": "functional.test_async_polling.req_5",
+      "language": "javascript",
+      "status": "pass",
+      "latency_ms": 578.3698570448905,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "stdout_preview": "HELLO_FROM_JAVASCRIPT\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:51:00Z",
+      "test_name": "functional.test_async_polling.req_6",
+      "language": "python",
+      "status": "pass",
+      "latency_ms": 512.7716329880059,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "stdout_preview": "HELLO_FROM_PYTHON\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:51:00Z",
+      "test_name": "functional.test_async_polling.req_7",
+      "language": "javascript",
+      "status": "pass",
+      "latency_ms": 587.5555970706046,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "stdout_preview": "HELLO_FROM_JAVASCRIPT\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:51:00Z",
+      "test_name": "functional.test_async_polling.req_8",
+      "language": "python",
+      "status": "pass",
+      "latency_ms": 411.05525207240134,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "stdout_preview": "HELLO_FROM_PYTHON\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:51:00Z",
+      "test_name": "functional.test_async_polling.req_9",
+      "language": "javascript",
+      "status": "pass",
+      "latency_ms": 492.9422080749646,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "stdout_preview": "HELLO_FROM_JAVASCRIPT\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:51:00Z",
+      "test_name": "functional.test_async_polling.req_10",
+      "language": "python",
+      "status": "pass",
+      "latency_ms": 441.5494198910892,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "stdout_preview": "HELLO_FROM_PYTHON\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:51:00Z",
+      "test_name": "functional.test_async_polling.req_11",
+      "language": "javascript",
+      "status": "pass",
+      "latency_ms": 421.6655179625377,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "stdout_preview": "HELLO_FROM_JAVASCRIPT\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:51:00Z",
+      "test_name": "functional.test_async_polling.req_12",
+      "language": "python",
+      "status": "pass",
+      "latency_ms": 502.64704797882587,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "stdout_preview": "HELLO_FROM_PYTHON\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:51:00Z",
+      "test_name": "functional.test_async_polling.req_13",
+      "language": "javascript",
+      "status": "pass",
+      "latency_ms": 451.4716099947691,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "stdout_preview": "HELLO_FROM_JAVASCRIPT\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:51:00Z",
+      "test_name": "functional.test_async_polling.req_14",
+      "language": "python",
+      "status": "pass",
+      "latency_ms": 534.3509380472824,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "stdout_preview": "HELLO_FROM_PYTHON\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:51:00Z",
+      "test_name": "functional.test_async_polling.req_15",
+      "language": "javascript",
+      "status": "pass",
+      "latency_ms": 567.6143610617146,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "stdout_preview": "HELLO_FROM_JAVASCRIPT\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:51:00Z",
+      "test_name": "functional.test_async_polling.req_16",
+      "language": "python",
+      "status": "pass",
+      "latency_ms": 470.2955859247595,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "stdout_preview": "HELLO_FROM_PYTHON\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:51:00Z",
+      "test_name": "functional.test_async_polling.req_17",
+      "language": "javascript",
+      "status": "pass",
+      "latency_ms": 596.5071900282055,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "stdout_preview": "HELLO_FROM_JAVASCRIPT\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:51:00Z",
+      "test_name": "functional.test_async_polling.req_18",
+      "language": "python",
+      "status": "pass",
+      "latency_ms": 606.0425930190831,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "stdout_preview": "HELLO_FROM_PYTHON\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:51:00Z",
+      "test_name": "functional.test_async_polling.req_19",
+      "language": "javascript",
+      "status": "pass",
+      "latency_ms": 481.4752269303426,
+      "error_type": "",
+      "details": {
+        "exit_code": 0,
+        "stdout_preview": "HELLO_FROM_JAVASCRIPT\n",
+        "stderr_preview": ""
+      }
+    }
+  ]
+}

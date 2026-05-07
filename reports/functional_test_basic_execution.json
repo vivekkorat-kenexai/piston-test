@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-05-07T17:50:53Z",
+  "results": [
+    {
+      "timestamp": "2026-05-07T17:50:52Z",
+      "test_name": "functional.test_basic_execution.python",
+      "language": "python",
+      "status": "pass",
+      "latency_ms": 61.953030060976744,
+      "error_type": "",
+      "details": {
+        "http_latency_ms": 61.953030060976744,
+        "wall_latency_ms": 62.19033198431134,
+        "exit_code": 0,
+        "stdout_preview": "HELLO_FROM_PYTHON\n",
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-05-07T17:50:53Z",
+      "test_name": "functional.test_basic_execution.javascript",
+      "language": "javascript",
+      "status": "pass",
+      "latency_ms": 97.84437692724168,
+      "error_type": "",
+      "details": {
+        "http_latency_ms": 97.84437692724168,
+        "wall_latency_ms": 98.03222492337227,
+        "exit_code": 0,
+        "stdout_preview": "HELLO_FROM_JAVASCRIPT\n",
+        "stderr_preview": ""
+      }
+    }
+  ]
+}
