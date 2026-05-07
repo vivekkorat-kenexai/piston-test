@@ -7,7 +7,10 @@ import time
 from pathlib import Path
 from typing import Any, Dict
 
-from reporting.analyze_results import analyze
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+
+from reporting.analyze_results import analyze  # noqa: E402
 
 
 def main() -> int:
